@@ -36,3 +36,14 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+
+# Links to AWS resources
+
+### CloudFront (Main App URL)
+[Click here to view the application](https://d30yuuvpe5826u.cloudfront.net)
+
+### S3 Bucket
+[Click here to test direct S3 access](https://staticwebsitestack-staticwebsiteconstructsitebucke-sk3zmgqqvqos.s3.eu-central-1.amazonaws.com/index.html)
+> **Note:** Direct access to this S3 bucket is intentionally disabled. Only CloudFront has access via OAC. Clicking the link above should correctly result in an `AccessDenied` error, proving the security configuration works as expected.
+
